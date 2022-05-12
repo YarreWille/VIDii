@@ -14,6 +14,419 @@ button:not([disabled]) {
 
 /* jouw CSS vanaf hier */
 
+body{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-rows: 0.7fr 1fr 1fr 0.3fr;
+	align-items: center;
+	background-image: url(../images/pokemon-background.png);
+	background-size: cover;
+
+}
+
 h1 {
   color:crimson;
+  grid-column: 2/4;
+  grid-row: 1;
+  justify-self: center;
 }
+
+/***************** scherm links van de pokedex *******************/
+
+article{
+	width: 25em;
+	height: 40em;
+	background-color: #cc0000;
+	border-radius: 1em;
+	grid-column: 2/3;
+  	grid-row: 2/4;
+  	box-shadow:
+    inset -.3em -.3em .5em maroon,
+    inset .3em .3em .5em maroon;
+}
+
+section.top{
+	width: 25em;
+	height: 7em;
+	background-color: #CE2211;
+	-webkit-clip-path: polygon(100% 0, 100% 50%, 70% 50%, 50% 100%, 0 100%, 0 0); 
+	clip-path: polygon(100% 0, 100% 50%, 70% 50%, 50% 100%, 0 100%, 0 0);
+	padding: 1em 1em 1em 1em;
+	border-radius: 1em 1em 0 0 ;
+	display: flex;
+	box-shadow:
+    inset -.3em -.3em .5em #800000,
+    inset .3em .3em .5em #800000;
+}
+
+
+div.circle {
+  width: 5em;
+  height: 5em;
+  background: lightblue;
+  border-radius: 50%;
+  border: 0.3em solid #FFFFFF;
+}
+
+div.circle2 {
+  width: 1.5em;
+  height: 1.5em;
+  background: red;
+  border-radius: 50%;
+  position: relative;
+  left: 2em;
+  top: 0em;
+  border: 0.1em solid #800000;
+}
+
+div.circle3 {
+  width: 1.5em;
+  height: 1.5em;
+  background: yellow;
+  border-radius: 50%;
+  position: relative;
+  left: 4em;
+  top: 0em;
+  border: 0.1em solid #800000;
+}
+
+div.circle4 {
+  width: 1.5em;
+  height: 1.5em;
+  background: green;
+  border-radius: 50%;
+  position: relative;
+  left: 6em;
+  top: 0em;
+  border: 0.1em solid #800000;
+}
+
+
+section.scherm-links{
+	width: 21em;
+	height: 17em;
+	background-color: lightgrey;
+	margin: auto;
+	margin-top: 2em;
+	margin-bottom: 2em;
+	-webkit-clip-path: polygon(100% 0, 100% 100%, 10% 100%, 0 90%, 0 0); 
+	clip-path: polygon(100% 0, 100% 100%, 10% 100%, 0 90%, 0 0);
+	padding: 2em 1em 1em 1em;
+	box-shadow:
+    inset -.1em -.1em .1em rgb(51 58 64),
+    inset .1em .1em .1em rgb(51 58 64);
+}
+
+section.scherm-links section{
+	width: 17em;
+	height: 12em;
+	background-color: black;
+	background-image: url(../images/eevee.gif);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin: auto;
+	border-radius: 0.5em;
+	box-shadow: 
+	inset -.3em -.3em .5em grey,
+    inset .3em .3em .5em grey;
+}
+
+
+section.keys{
+	width: 25em;
+	height: 12em;
+	background-color: #CE2211;
+	border-radius: 0em 0em 1em 1em;
+	padding: 1em;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr ;
+	grid-template-rows: 1fr 1fr;
+	box-shadow:
+    inset -.3em -.3em .5em #800000,
+    inset .3em .3em .5em #800000;
+}
+
+div.bottom-circle {
+  width: 4em;
+  height: 4em;
+  background: black;
+  border-radius: 50%;
+  grid-row: 1;
+  grid-column: 1;
+}
+
+div.bottom-circle2 {
+  width: 4em;
+  height: 1em;
+  background: red;
+  grid-row: 1;
+  grid-column: 2;
+  border-radius: 0.3em;
+}
+
+div.bottom-circle3 {
+  width: 4em;
+  height: 1em;
+  background: blue;
+  grid-row: 1;
+  grid-column: 3;
+  border-radius: 0.3em;
+
+}
+
+button.select-button {
+  width: 9em;
+  height: 5em;
+  background: green;
+  grid-row: 2;
+  grid-column: 1/4;
+  border-radius: 0.5em;
+  border: none;
+  box-shadow:
+  inset -.2em -.2em .5em darkgreen,
+  inset .2em .2em .5em darkgreen;
+  justify-self: center;
+ 
+}
+
+            
+button.cross-button {
+  background: black;
+  height: 2.5em;
+  position: relative;
+  width: 7em; 
+  grid-row: 1/3;
+  grid-column: 4;
+  top: 4em;
+  right: 1.5em;
+     
+}
+ button.cross-button:after {
+  background: black;
+  content: "";
+  height: 7em;
+  width: 2.5em;
+  left: 2.10em;
+  position: absolute;
+  top: -2.25em;
+  grid-row: 1;
+  grid-column: 4;
+      
+}
+
+/************ scherm rechts van de pokedex ***************/
+
+
+article.pokedex-rechts{
+	background-color: #cc0000;
+	border-radius: 1em;
+	-webkit-clip-path: polygon(30% 8.7%, 50% 18%, 100% 18%, 100% 100%, 0 100%, 0 8.7%); 
+	clip-path: polygon(30% 8.7%, 50% 18%, 100% 18%, 100% 100%, 0 100%, 0 8.7%);
+	display: grid;
+	grid-template-rows: 1fr 0.2fr 1fr 1fr 1fr;
+	grid-template-columns: 1fr 1fr 1fr;
+	padding: 1.5em;
+	padding-top: 9em;
+	grid-column: 3/4;
+  	grid-row: 2/4;
+  	box-shadow:
+    inset -.3em -.3em .5em maroon,
+    inset .3em .3em .5em maroon;
+}
+
+
+section.scherm-rechts{
+	width: 20em;
+	height: 10em;
+	background-color: black;
+	margin: auto;
+	border-radius: 0.5em;
+	grid-row: 1/2;
+	grid-column: 1/4;
+	margin: 0em 2em 0em 2em;
+	justify-self: center;
+	box-shadow:
+    inset -.3em -.3em .5em grey,
+    inset .3em .3em .5em grey;
+}
+
+div.blue-grid{
+	width: 17em;
+	height: 7em;
+	background-color: blue;
+	border-radius: 0.5em;
+	grid-row: 3/4;
+	grid-column: 1/4;
+	justify-self: center;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.blue-grid div{
+	width: 3.4em;
+	height: 3.5em;
+	border: 0.1em solid black;
+}
+
+.blue-grid div:first-of-type{
+	border-radius: .5em 0 0 0;
+}
+
+.blue-grid div:nth-of-type(5){
+	border-radius: 0 .5em 0 0;
+}
+
+.blue-grid div:nth-of-type(6){
+	border-radius: 0 0 0 .5em;
+}
+
+.blue-grid div:nth-of-type(10){
+	border-radius: 0 0 .5em 0;
+}
+
+
+.button-1{
+	width: 4em;
+	height: 1em;
+	background-color: black;
+	grid-row: 4/5;
+	grid-column: 2/3;
+	justify-self: center;
+	align-self:  top;
+	margin-top: 1em;
+	border-radius: 0.5em;
+}
+
+.button-2{
+	width: 4em;
+	height: 1em;
+	background-color: black;
+	grid-row: 4/5;
+	grid-column: 3/4;
+	justify-self: center;
+	align-self:  top;
+	margin-top: 1em;
+	border-radius: 0.5em;
+}
+
+.white-grid{
+	height: 3.5em;
+	width: 7em;
+	background-color: white;
+	border-radius: 0.5em;
+	grid-row: 4/5;
+	grid-column: 1/2;
+	display: flex;
+	flex-direction: row;
+	justify-self: center;
+	align-self: center;
+}
+
+.white-grid div:first-of-type{
+	height: 3.5em;
+	width:3.5em;
+	border: 0.1em solid black;
+	border-radius: .5em 0em 0em .5em;
+}
+
+.white-grid div:nth-of-type(2){
+	height: 3.5em;
+	width:3.5em;
+	border: 0.1em solid black;
+	border-radius: 0em .5em .5em 0em;
+}
+
+
+.yellow-circle{
+	background: yellow;
+  	height: 3em;
+  	width: 3em; 
+  	border-radius: 50%;
+  	position: relative;
+ 	grid-row: 4/5;
+  	grid-column: 3;
+  	justify-self: right;
+  	align-self: bottom;
+  	margin-top: 3em;
+  	margin-right: 2em;
+}
+
+
+
+.pad-links{
+	width: 10em;
+	height: 4em;
+	margin-right: 3.5em;
+	border-radius: 0.5em;
+	background-color: black;
+	grid-column: 1/3;
+	grid-row: 5/6;
+	justify-self: center;
+	align-self: center;
+}
+
+.pad-rechts{
+	width: 10em;
+	height: 4em;
+	margin-left: 3.5em;
+	border-radius: 0.5em;
+	background-color: black;
+	grid-column: 2/4;
+	grid-row: 5/6;
+	justify-self: center;
+	align-self: center;
+}
+
+.eevee{
+	background-image: url(../images/eevee.gif);
+	}
+}
+
+.vaporeon{
+	background-image: url(../images/vaporeon.gif);
+	}
+}
+
+.jolteon{
+	background-image: url(../images/jolteon.gif);
+	}
+}
+
+.flareon{
+	background-image: url(../images/flareon.gif);
+	}
+}
+
+.espeon{
+	background-image: url(../images/espeon.gif);
+	}
+}
+
+.umbreon{
+	background-image: url(../images/umbreon.gif);
+	}
+}
+
+.glaceon{
+	background-image: url(../images/glaceon.gif);
+	}
+}
+
+.leafeon{
+	background-image: url(../images/leafeon.gif);
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+    
