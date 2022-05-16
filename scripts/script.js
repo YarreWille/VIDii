@@ -1,8 +1,14 @@
-const eeveeArray = ["eevee", "vaporeon", "jolteon", "flareon", "espeon", "umbreon", "glaceon", "leafeon"];
+// JavaScript Document
+console.log("Howdy!");
+
+
+/****Voor de  Eevee switch*****/
+
+const eeveeArray = ["eevee", "vaporeon", "jolteon", "flareon", "espeon", "umbreon", "glaceon", "leafeon", "sylveon"];
 const lastEevee = document.querySelector(".pad-links");
 const nextEevee = document.querySelector(".pad-rechts");
 const img = document.querySelector("section.scherm-links section");
-const currentNumb = 0;
+let currentNumb = 0;
 
 lastEevee.addEventListener("click", () => {
 	console.log(currentNumb);
@@ -28,3 +34,8 @@ nextEevee.addEventListener("click", () => {
 		img.classList.add(`${eeveeArray[currentNumb]}`)
 	}
 });
+
+
+
+
+

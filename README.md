@@ -33,10 +33,9 @@ Mijn startniveau is: Rood
 
   ### Je ambitie: 
   Aan deze technieken/punten wil ik werken:
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - Animaties en transities in CSS
+  - Beter worden in JS
+  - Een nette text schrijven
  
 </details>
 
@@ -49,23 +48,19 @@ Mijn startniveau is: Rood
   <summary>Mijn bevindingen + wijzigingen (minimaal 5)</summary>
 
   ### Bevinding 1:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+  Ik was nog niet helemaal tevreden met mijn keuze voor het onderwerp. Eerst was ik van plan om te werken aan een tijdlijn en daarbij had ik Wario als idee. Maar ik merkte dat ik niet echt veel ideeen kon bedenken en dat ik al snel een beetje vast liep.
 
   #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
+  Uiteindelijk ben ik dan doorgegaan met het idee van de Eevee. Zelf ken ik de pokemon namelijk wel maar niet helemaal de werking. Het leek mij dus wel intressant om hier mee door te gaan. Ook vind ik de basis van  dit ontwerp een stuk beter om mee te werken. 
 
 
 
   ### Bevinding 2:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+  Ik had eigenlijk twee ideeen waar ik mee bezig was en niet echt een keuze tussen kon maken. Het eerste idee was een Pokedex waar alle informaatie over de verschillende Eevee gezien kan worden en de gebruiker door middel van de knoppen kan navigeren en geinformeerd kan worden. Na een beetje onderzoek was ik er achter gekomen dat in de originele game's van Pokemon de Eevee als eerste gevonden kan worden in een bepaald huis in een bepaalde stad. Ook zijn er verschillende evoluties van Eevee bijgekomen over de jaren heen. Bijna elke generatie van de games introduceerd wel een nieuwe soort. Het leek mij intressant om op elke etage of kamer van dat gebouw dus een andere generatie of soort Eevee te laten zien.
 
   #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
+  Na de feefback ronden werd het duidelijk dat het doel van het gekozen onderwerp is om mensen iets uit te leggen waar ze niets over weten. En hoewel de Pokedex niet al te origineel is is het wel erg duidelijk en overzichtelijk. Ik heb er daarom voor gekozen om met dit idee verder te gaan en misschien later nog andere onderdelen van het tweede idee toe te voegen aan mijn ontwerp.
 
-
-
-  ### Bevinding 3:
-  ...
 
 </details>
 
