@@ -142,7 +142,6 @@ Mijn startniveau is: Rood
 
 ## Voortgang/Feedback 3
 
-<details>
   <summary>Mijn bevindingen + wijzigingen (minimaal 5)</summary>
   
   ### Bevinding 1:
@@ -189,7 +188,7 @@ Mijn startniveau is: Rood
 
 ## Reflectie
 
-<details>
+<details open>
   <summary>Mijn eindresultaat & persoonlijke ontwikkeling</summary>
 
   ### Je uitkomst - karakteristiek screenshot(s):
