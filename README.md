@@ -213,6 +213,20 @@ Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 9. Afbeelding-Glaceon: https://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-black-and-white/5/51/Pokemans_471.gif?width=2240
 10. Afbeeldding-Sylveon: https://www.seekpng.com/png/full/160-1603994_sylveon-pixel-art-pokemon-sylveon.png
 
+11. Achtergrond-Eevee: https://i.pinimg.com/originals/d3/88/57/d38857eeb3ff01be07c05fbfa80d3385.png
+12. Achtergrond-Vaporeon: https://opengameart.org/sites/default/files/Preview_143.png
+13. Achtergrond-Jolteon: https://scutanddestroy.files.wordpress.com/2010/07/salvage-lightning-001.png
+14. Achtergrond-Flareon: https://art.pixilart.com/0a8d70e846be7ce.png
+15. Achtergrond-Espeon: https://64.media.tumblr.com/8d3eb4fd81387f1bcad099506a56b81b/tumblr_pozgapU0yK1tlgv32o1_540.png
+16. Achtergrond-Umbreon: https://wallpapercave.com/wp/wp9434238.png
+17. Achtergrond-Leafeon: https://i.redd.it/qmfjuz883g7z.png
+18. Achtergrond-Glaceon: https://forums.terraria.org/index.php?attachments/n-8-png.33839/
+19. Achtergrond-Sylveon: https://64.media.tumblr.com/07a4e9b9f85c4458e91d95950af59f2a/91983165287def1c-8d/s1280x1920/d128401b38012ff04f7ef4b1397068eef3c93a3e.png
+
+20. Informatie over de Eeveelutions en de verschillende pokemon. Op welke manier ze kunnen evolueren en het ontstaan en geschiedenis van de pokemon.: https://bulbapedia.bulbagarden.net/wiki/Eeveelution
+
+
+
 
 
 </details>
