@@ -146,23 +146,41 @@ Mijn startniveau is: Rood
   <summary>Mijn bevindingen + wijzigingen (minimaal 5)</summary>
   
   ### Bevinding 1:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+  De titel van de h1 had ik nog niet aangepast. Als in content en vormgeving. Ik kon hier nog wel wat mee doen om het ontwerp geheel te maken.
 
   #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
+  Ik heb een font gezocht die heel goed werkt met het pokemon thema. Dit font had een fill en outline versie. Ik heb de fill versie gebruikt en er zelf een outline aan gegeven om het Originele Pokemon logo na te maken. De kleuren die ik heb gebruikt zijn dezelfde kleuren die Pokemon zelf ook gebruikt.
 
 
 
   ### Bevinding 2:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+  Om de sfeer van het ontwerp totaal te maken wilde ik nog dat bij het navigeren door de verschillende eevee ook de achtergond van de eevee veranderd. Ik moest er ook voor zorgen dat deze in hetzelfde thema bleven.
 
   #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
+  Ik ben op zoek gegaan naar verschillende pixel art backgrounds die passen bij de verschillende eeveelutions. Zo heb ik water achterground gevonden, een nacht achtergrond , etc. En het was ook belangrijk dat dit pixel art was omdat de eevee ook op deze manier zijn weergegeven. Ook is dit heel passend bij de stijl van de eerst generatie pokemon games. Door middel van dezelfde array en buttons in Js die ik heb gebruikt om de verschillende eevee te laten zien kon ik de achtergrond van de body veranderen. 
 
 
 
   ### Bevinding 3:
-  ...
+  Ik wist niet goed hoe ik de select button moest gebruiken en hoe de naam van elke eevee moest worden getoond. Eerst was ik namelijk vanplan om een knop te gebruiken waar de gebruiker een detail pagina kon openen als ze een bepaalde eevee hadden geselecteerd. Maar met de tijd die ik nog had en de gehele werking van de pagina leek dit toch niet echt goed te werken. 
+
+  #### oplossing:
+  Uiteindelijk kwam ik er achter dat op de originele generatie 1 pokedex de button die ik had gebruikt om te selecteren helemaal geen button was. Eigenlijk is het ook een scherm. Dit kwam eigenlijk goed uit omdat ik in dit kleine scherm de naam van de juiste eevee kwijt kon. Ik heb dit gedaan door ook een array te maken en met .textContent in JS de content van de geselecteerde P te veranderen in de HTML.
+
+
+  ### Bevinding 4:
+  Teglijk met de verandering van de eevee en de background was ik ook van plan om de informatieve tekst van elke eevee te veranderen in de pokedex. Hiervoor dacht ik ook een array te gebruiken en met dezelfde buttons hierdoor te navigeren. Het probleem was alleen wel dat ik de images had aangepast door met de Js een andere class toe te voegen aan de body en section waar deze in stonden. En om de tekst in de HTML te verandere met CSS is niet echt handig. Dit is waarschijnlijk het moeilijkste onderdeel geweest van mijn proces. Ik heb heel lang op Internet gezocht naar oplossingen en veel verschillende methodes geprobeerd maar het wilde maar niet lukken. En naast dat de tekst moest van de P moest veranderen moest ook gelijk die typewriter animatie werken op de nieuwe tekst.  
+
+  #### oplossing:
+  Zo heb ik uiteindelijk hulp gevraagd aan Milan die mij super goed heeft kunnen helpen met de oplossing en ook het uitleggen van de werking. Ik heb een hele lange array gemaakt in JS waar alle tekst per eevee in staat. En Milan heeft mij geholpen met het aanmaken .textContent element die ik kon gebruiken elke keer als de buttons werden aangeklikt. En om de animatie van de typewriter op de nieuwe tekst te laten werken moest ik die class die daarop stond eerst verwijderen en er weer opzetten als de nieuwe tekst was aangegeven.
+
+
+  ### Bevinding 5:
+  Voor dat ik mijn ontwerp kon inleveren moest ik nog even goed kijken of mijn code wel netjes was. Ik had redelijk netjes gewerkt maar ook nog wel echt veel classes gebruikt en kon bepaalde elementen echt wel op een betere manier aanspreken. Het gebruik van DIVS heb ik wel alleen gelimiteerd voor de visuele elementen.
+
+  #### oplossing:
+  Zo ben ik door mijn hele code gegaan om zoveel mogelijk classes te verwijden en anders te benoemen in de CSS. Ik heb uiteindelijk niet alles classes aangepast omdat het er soms voor zorgde dat het hele ontwerp stuk ging en ik bang was dit niet optijd te kunnen herstellen als ik het anders wilde gaan doen. Toch vind ik dit wel jammer wat ik had het liefste een helemaal nette code in willen leveren.
+
 
 </details>
 
@@ -175,19 +193,26 @@ Mijn startniveau is: Rood
   <summary>Mijn eindresultaat & persoonlijke ontwikkeling</summary>
 
   ### Je uitkomst - karakteristiek screenshot(s):
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="final ontwerp">
+  <img src="readme-images/ss-final-design.jpg" width="375px" alt="final ontwerp">
+  <img src="readme-images/ss-final-design-fire.jpg" width="375px" alt="final ontwerp fire">
+  <img src="readme-images/ss-final-design-moon.jpg" width="375px" alt="final ontwerp moon">
+  Mijn uieindelijke ontwerp is een pokedex geworden waarin de gerbuiker kan navigeren om de verchillende evoluties van de bekende pokemon Eevee te zien. Als er naar een andere Eevee wordt genavigeerd veranderd ook het thema, titel en de tekst bij de pokedex. Om verder in te gaan op de Eeveelutions en de specefieke pokemon is er in de tekst een link aangegeven waar de gebruiker naartoe kan gaan om zich in te lezen.
 
 
   ### Dit ging goed/Heb ik geleerd: 
   Korte omschrijving met plaatje(s)
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+  <img src="readme-images/ss-typewriter.jpg" width="375px" alt="top">
+  <img src="readme-images/ss-code-typewriter.jpg" width="375px" alt="top2">
+  Wat goed gings was het werken met keyframes en de animatie voor het typewriter effect voor de informatieve tekst. Ik heb wat hulp gehaald door te kijken naar Code van andere CMD studenten en door op internet op zoek te gaan naar tutorials en voorbeelden. Wat er goed aan ging is dat ik de werking nu goed begrijp en dat het eindresultaat goed werk in het geheel. Ook vind ik dat de hele sfeer van het concept goed is gelukt. Door de gekozen fonts en het terug komen van de pixel art. Daarnaast heb ik ook veel meer geleerd over JavaScript. Ik vind het nogsteeds best lastig om toe te passen en te lezen maar ik ben er wel een stuk beter in geworden. Dit is ook leuk omdat dan de hele werking van je ontwerp veel meer gaat leven. Veel dank aan Milan voor het helpen en uitleggen van de JS Code :). 
 
 
   ### Dit was lastig/Is niet gelukt:
   Korte omschrijving met plaatje(s)
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+  <img src="readme-images/ss-link-typewriter.jpg" width="375px" alt="lastig">
+  <img src="readme-images/ss-code-link-typewriter.jpg" width="375px" alt="lastig2">
+  Zoals ik hier boven al aangaf was de JavaScript alsnog wel heel lastig. Ook vooral omdat het lezen er van soms ook moeilijk is. Het begrijpen van de verschillende code. Uiteindelijk is het wel gelukt maar het was vooral erg lastig. Iets uiteindelijk niet is gelukt maar wat ik nog wel heel graag in het ontwerp had gewild is dat de link in de tekst ook klikbaar was. Nu is alleen de link gegeven en moet de gebruiker deze overnemen en in de eigen browser plaatsen. Het zou mooi zijn geweest als de gebruiker gelijk op een link kon klikken die in de tekst staat. En dan ook gelijk dat deze link niet staat weergegeven als de heel tekst maar als een button of zoiets dergelijks.
 </details>
 
 
